@@ -1,0 +1,5 @@
+---
+- hosts: appserver
+  task:
+  - name: ping to node
+    ping: 
